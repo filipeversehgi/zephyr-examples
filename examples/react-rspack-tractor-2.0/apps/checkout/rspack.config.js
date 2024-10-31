@@ -84,7 +84,7 @@ const config = {
       filename: 'remoteEntry.js',
       shared: ['react', 'react-dom', 'react-router', 'react-router-dom'],
       remotes: {
-        tractor_v2_explore: 'tractor_v2_explore@http://localhost:3003/remoteEntry.js',
+        filipescalio_tractor: 'filipescalio_tractor@http://localhost:3003/remoteEntry.js',
       },
       exposes: {
         './CartPage': path.resolve(__dirname) + '/src/CartPage.tsx',

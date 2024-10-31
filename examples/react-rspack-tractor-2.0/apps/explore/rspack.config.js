@@ -5,7 +5,7 @@ const path = require('path');
 const { ModuleFederationPlugin } = require('@module-federation/enhanced/rspack');
 const { withZephyr } = require('zephyr-webpack-plugin');
 
-const name = 'tractor_v2_explore';
+const name = 'filipescalio_tractor';
 
 /**
  * @type {import('@rspack/cli').Configuration}

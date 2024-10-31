@@ -1,11 +1,11 @@
 import * as React from 'react';
-import CompactHeader from './components/CompactHeader';
-import Button from './components/Button';
 import { useNavigate } from 'react-router-dom';
+import Button from './components/Button';
+import CompactHeader from './components/CompactHeader';
 import './css/Checkout.css';
 
-const StorePicker = React.lazy(() => import('tractor_v2_explore/StorePicker'));
-const Footer = React.lazy(() => import('tractor_v2_explore/Footer'));
+const StorePicker = React.lazy(() => import('filipescalio_tractor/StorePicker'));
+const Footer = React.lazy(() => import('filipescalio_tractor/Footer'));
 
 function useShop() {
   const [shop, setShop] = React.useState('');

@@ -1,14 +1,14 @@
 import * as React from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import VariantOption from './components/VariantOption';
+import './css/ProductPage.css';
 import data from './data/db.json';
 import { src, srcset } from './js/utils';
-import './css/ProductPage.css';
 
 const AddToCart = React.lazy(() => import('tractor_v2_checkout/AddToCart'));
-const Header = React.lazy(() => import('tractor_v2_explore/Header'));
-const Footer = React.lazy(() => import('tractor_v2_explore/Footer'));
-const Recommendations = React.lazy(() => import('tractor_v2_explore/Recommendations'));
+const Header = React.lazy(() => import('filipescalio_tractor/Header'));
+const Footer = React.lazy(() => import('filipescalio_tractor/Footer'));
+const Recommendations = React.lazy(() => import('filipescalio_tractor/Recommendations'));
 
 function useSku() {
   const [sku, setSku] = React.useState(() => new URL(location.href).searchParams.get('sku'));

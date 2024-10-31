@@ -89,7 +89,7 @@ const config = {
       remotes: {
         tractor_v2_checkout: 'tractor_v2_checkout@http://localhost:3001/remoteEntry.js',
         tractor_v2_decide: 'tractor_v2_decide@http://localhost:3002/remoteEntry.js',
-        tractor_v2_explore: 'tractor_v2_explore@http://localhost:3003/remoteEntry.js',
+        filipescalio_tractor: 'filipescalio_tractor@http://localhost:3003/remoteEntry.js',
       },
     }),
     ...(isDev ? [new refreshPlugin()] : []),

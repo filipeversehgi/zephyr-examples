@@ -1,13 +1,13 @@
 import * as React from 'react';
-import LineItem from './components/LineItem';
 import Button from './components/Button';
+import LineItem from './components/LineItem';
+import './css/CartPage.css';
 import data from './data/db.json';
 import { useLineItems } from './data/store';
-import './css/CartPage.css'
 
-const Header = React.lazy(() => import('tractor_v2_explore/Header'));
-const Footer = React.lazy(() => import('tractor_v2_explore/Footer'));
-const Recommendations = React.lazy(() => import('tractor_v2_explore/Recommendations'));
+const Header = React.lazy(() => import('filipescalio_tractor/Header'));
+const Footer = React.lazy(() => import('filipescalio_tractor/Footer'));
+const Recommendations = React.lazy(() => import('filipescalio_tractor/Recommendations'));
 
 function convertToLineItems(items: Array<{ sku: string; quantity: number }>) {
   return items.reduce((res, { sku, quantity }) => {

@@ -85,7 +85,7 @@ const config = {
       shared: ['react', 'react-dom', 'react-router', 'react-router-dom'],
       remotes: {
         tractor_v2_checkout: 'tractor_v2_checkout@http://localhost:3001/remoteEntry.js',
-        tractor_v2_explore: 'tractor_v2_explore@http://localhost:3003/remoteEntry.js',
+        filipescalio_tractor: 'filipescalio_tractor@http://localhost:3003/remoteEntry.js',
       },
       exposes: {
         './ProductPage': path.resolve(__dirname) + '/src/ProductPage.tsx',

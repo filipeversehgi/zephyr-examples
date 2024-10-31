@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/ryok90/tractor-v2-react-mf.git"
+    "url": "https://github.com/filipeversehgi/zephyr-examples/tree/main/examples/react-rspack-tractor-2.0"
   },
   "scripts": {
     "build": "pnpm run --parallel build",

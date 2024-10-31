@@ -84,7 +84,7 @@ In the [rspack.config.ts of `explore`](./apps/explore/rspack.config.js), comment
 and run 
 
 ```
-WITH_ZE=true pnpm --filter tractor_v2_explore run build
+WITH_ZE=true pnpm --filter filipescalio_tractor run build
 ```
 
 2. Build `checkout` app 
@@ -121,7 +121,7 @@ new ModuleFederationPlugin({
 ```
 
 ```sh 
-WITH_ZE=true pnpm --filter tractor_v2_explore run build
+WITH_ZE=true pnpm --filter filipescalio_tractor run build
 ```
 
 4. Build `decide` 
